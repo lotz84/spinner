@@ -15,5 +15,15 @@ main = withSpin' $ do
 
 ![](demo.gif)
 
+
+If you want to use this library with stack, add to `stack.yaml` this repo location as below.
+
+```yaml
+packages:
+- location:
+    git: git@github.com:lotz84/spinner.git
+    commit: d39db825756e837c8bb0f1e8197eae6f1f0efe88
+```
+
 ##LICENSE
 BSD3
